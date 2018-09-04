@@ -1,0 +1,83 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="4155699772" file="C:\Users\Caspar\Dropbox\Matlab\matlabtools\quickfit2\source\quickfit.prj" location="C:\Users\Caspar\Dropbox\Matlab\matlabtools\quickfit2\source" name="quickfit" target="target.mlapps" target-name="Package App">
+    <param.appname>quickfit</param.appname>
+    <param.authnamewatermark>Caspar Ockeloen-Korppi</param.authnamewatermark>
+    <param.email>caspar.ockeloen@aalto.fi</param.email>
+    <param.company>Aalto University</param.company>
+    <param.icon>${PROJECT_ROOT}\quickfit_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\quickfit_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\quickfit_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\quickfit_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>Graphical interface for non-linear curve fitting</param.summary>
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\toolbar images\screenshot.png</param.screenshot>
+    <param.version>2.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\Caspar\Dropbox\Matlab\matlabtools\quickfit2</param.output>
+    <param.guid>89127821-393a-4d23-b89e-ced7ab3dd97d</param.guid>
+    <unset>
+      <param.description />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\quickfit.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\+cfw\CAxes.m</file>
+      <file>${PROJECT_ROOT}\+cfw\CControl.m</file>
+      <file>${PROJECT_ROOT}\+cfw\CGridLayout.m</file>
+      <file>${PROJECT_ROOT}\+cfw\CHGraphics.m</file>
+      <file>${PROJECT_ROOT}\+cfw\CTabbedDialog.m</file>
+      <file>${PROJECT_ROOT}\+cfw\CTabbedDialogTabChanged.m</file>
+      <file>${PROJECT_ROOT}\+cfw\CUIButtonGroup.m</file>
+      <file>${PROJECT_ROOT}\+cfw\CUIButtonGroupSelectionChangedEventData.m</file>
+      <file>${PROJECT_ROOT}\+cfw\CUIControl.m</file>
+      <file>${PROJECT_ROOT}\+cfw\CUIPanel.m</file>
+      <file>${PROJECT_ROOT}\+cfw\CUITable.m</file>
+      <file>${PROJECT_ROOT}\+cfw\CUITableCellSelectEventData.m</file>
+      <file>${PROJECT_ROOT}\+cfw\CUITableDataChangedEventData.m</file>
+      <file>${PROJECT_ROOT}\+cfw\CWindow.m</file>
+      <file>${PROJECT_ROOT}\+cfw\SettingChangedEvent.m</file>
+      <file>${PROJECT_ROOT}\+cfw\Settings.m</file>
+      <file>${PROJECT_ROOT}\+cfw\SettingsEditor.m</file>
+      <file>${PROJECT_ROOT}\+quickfit\Engine.m</file>
+      <file>${PROJECT_ROOT}\+quickfit\Instance.m</file>
+      <file>${PROJECT_ROOT}\+quickfit\UI.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\+quickfit\toolbarimgs.mat</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Caspar\Dropbox\Matlab\matlabtools" name="quickfit2" optional="false">C:\Users\Caspar\Dropbox\Matlab\matlabtools\quickfit2</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2016a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
